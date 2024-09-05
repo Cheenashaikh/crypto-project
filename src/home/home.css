@@ -1,0 +1,170 @@
+.image img {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 75%;
+    left: 25%;
+    font-family: 'Edwardian Script', cursive;
+
+
+
+}
+
+.home {
+    position: relative;
+}
+
+.text span {
+    color: #692A7D;
+
+}
+
+.text h1 {
+    color: #fff;
+    padding: 10px;
+    font-size: 2.5rem;
+
+}
+
+.text h4 {
+    color: wheat;
+    padding: 10px;
+}
+
+.text button {
+    background-color: #A570FD;
+    color: #fff;
+    font-family: 'Edwardian Script', cursive;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    left: 30%;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+
+}
+
+.text button:hover {
+    background-color: #4F0647;
+
+}
+
+
+@media screen and (max-width:768px) {
+    .image img {
+        height: 60vh;
+    }
+
+    .text h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .text h4 {
+        padding: 5px;
+    }
+
+    .text button {
+
+
+        padding: 6px 12px;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-top: 8px;
+
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .image img {
+        height: 60vh;
+    }
+    .text h1 {
+        font-size: 1.3rem;
+
+    }
+
+    .text h4 {
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .text button {
+
+
+        padding: 5px 10px;
+        font-size: 10px;
+        margin-top: 8px;
+
+    }
+
+}
+    
+@media screen and (max-width:480px) {
+    .image img {
+        height: 50vh;
+    }
+    .text {
+        bottom: 50%;
+        left: 25%;
+  
+    
+    
+    
+    }
+    .text h1 {
+        font-size: 1.2rem;
+
+    }
+
+    .text h4 {
+        padding: 2px;
+        font-size: 9px;
+        left: 30%;
+        margin-left: 8%;
+        
+    }
+
+
+}
+
+
+
+@media screen and (max-width:320px) {
+    .image img {
+        height: 50vh;
+    }
+
+    .text h1 {
+        font-size: 13px;
+
+    }
+
+    .text h4 {
+        font-size: 8px;
+        padding-top: 1px;
+        margin-top: 1px;
+
+    }
+
+    .text button {
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 8px;
+        left: 20%;
+
+    }
+
+    .text {
+        bottom: 50%;
+        left: 20%;
+
+    }
+}
