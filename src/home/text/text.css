@@ -1,0 +1,83 @@
+.mainText {
+    margin-top: 40px;
+    padding: 50px 5px;
+    margin: 50px;
+    margin-top: 2px;
+    margin-left: 2vh;
+    border: 0.5mm solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: linear-gradient(to right, #0C081C 0%, #261945 50%, #0C081C 100%);
+    padding: 30px;
+    border-radius: 30px;
+    color: #fff;
+    line-height: 30px;
+    max-height: 30rem;
+    overflow-y: auto;
+    
+
+
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+
+    to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.scroll {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.mainText h2{
+    color: #A570FD;
+    padding: 10px;
+}
+.mainText::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+  }
+  
+  .mainText::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .mainText::-webkit-scrollbar-track {
+    background-color: #22163F;
+    border-radius: 10px;
+  }
+  
+
+  
+
+.scroll {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+@media screen and (max-width:480px) {
+    .mainText{
+        max-height: 26rem;
+        margin-right: -30px;
+        margin-left: -30px;
+       
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .mainText{
+        max-height: 26rem;
+        max-width: 18rem;
+        margin-left: -46px;
+       
+    }
+    
+}

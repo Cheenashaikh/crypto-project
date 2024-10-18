@@ -1,0 +1,168 @@
+.servics {
+    width: 100%;
+    background-color: #A570FD;
+    color: #ccc;
+    margin: 10px;
+    padding: 50px 5px;
+    border-top-left-radius: 125px;
+    margin-bottom: 0;
+
+
+
+}
+
+.servics h4 {
+    color: #ffffff;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.follow {
+    width: 20%;
+    text-align: center;
+}
+
+.follow h3 {
+    margin-top: 20px;
+}
+
+.tool {
+    padding-left: 100px;
+}
+
+.logoImage {
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 3px;
+}
+
+.servics h2 {
+    color: #ffffff;
+}
+
+.follow {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#padding {
+    width: 35px;
+}
+
+.status {
+    background-color: #fff;
+    color: #A570FD;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.followpayment {
+    width: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+
+.logoImagePayment {
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:768px) {
+
+    .tool {
+        padding-left: 0px;
+    }
+    .servics{
+        border-top-left-radius: 0px;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+
+    .servics {
+        margin: 0px;
+        padding: 30px 5px;
+        border-top-left-radius:0px;
+        margin-bottom: 0;
+
+
+
+
+
+    }
+
+    .servics h4 {
+        margin-top: 10px;
+    }
+
+    .servics h2 {
+
+        margin-top: 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width:480px) {
+    .list {
+        gap: 50px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-left: -50px;
+
+    }
+
+    .servics {
+        border-top-left-radius: 0px;
+        padding: 20px 5px;
+        margin: 0px;
+
+    }
+    .servics h2{
+        margin-left: -50px;
+    }
+    .follow{
+        margin-left: -50px;
+    }
+    .followpayment{
+        margin-left: -30px;
+    }
+    .status{
+        margin-left: -50px;
+    }
+}

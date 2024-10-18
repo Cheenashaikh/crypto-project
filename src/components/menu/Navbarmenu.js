@@ -22,7 +22,7 @@ const Navbarmenu = () => {
                 <div className="row">
                     <div className="header__middle__logo">
                         <NavLink exact activeClassName='is-active' to="/">
-                            <img src={logo} alt="Logo" style={{ width: "26vh" }} />
+                            <img src={logo} alt="Logo" style={{ width: "26vh" }}  />
 
                         </NavLink>
                     </div>

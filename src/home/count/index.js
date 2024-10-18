@@ -2,6 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 import "./count.css";
 
+
 function Count() {
     function Number({ n }) {
         const { number } = useSpring({
@@ -10,6 +11,7 @@ function Count() {
             delay: 200,
             config: { mass: 1, tension: 20, friction: 10 },
         });
+       
 
         return (
             <animated.span>

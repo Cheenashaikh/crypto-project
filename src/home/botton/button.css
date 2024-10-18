@@ -1,12 +1,12 @@
-.button{
+.button {
     padding: 30px;
     margin-bottom: 60px;
 }
+
 .button button {
     background-color: #A570FD;
     color: #fff;
-    font-family: 'Edwardian Script', cursive;
-    padding: 10px 20px;
+   padding: 10px 20px;
     border-radius: 5px;
     display: flex;
     position: absolute;
@@ -14,8 +14,13 @@
     cursor: pointer;
     font-size: 1rem;
     margin-top: 10px;
+    z-index: 1;
+ 
 
+}
 
+.button button:hover{
+    background-color: #4F0647;
 }
 .button h1 {
     color: #FFFFFF;
@@ -24,6 +29,7 @@
     font-size: 45px;
     line-height: 84px;
 }
+
 @media screen and (max-width:768px) {
     .button h1 {
 
@@ -31,21 +37,23 @@
         margin-left: 17%;
         font-size: 40px;
     }
-    .button button{
+
+    .button button {
         left: 35%;
     }
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:576px) {
     .button h1 {
 
 
-        margin-left: 17%;
+        margin-left: 13%;
         font-size: 35px;
     }
-    .button button{
-        left: 35%;
+
+    .button button {
+        left: 30%;
         font-size: 14px;
     }
 
@@ -58,9 +66,29 @@
         margin-left: 17%;
         font-size: 25px;
     }
-    .button button{
+
+    .button button {
         left: 30%;
         font-size: 12px;
+        margin-top: -12px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .button h1 {
+
+
+        margin-left:6%;
+       
+        font-size: 20px;
+    }
+
+    .button button {
+        left: 18%;
+        font-size: 12px;
+        margin-top: -12px;
+        padding: 5px 10px;
     }
 
 }
